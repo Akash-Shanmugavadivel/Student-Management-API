@@ -1,0 +1,25 @@
+# Student Management API
+
+Spring Boot REST API for managing students.
+
+## Features
+
+- Create, read, update, and delete student records
+- RESTful endpoints
+- Uses Spring Data JPA
+
+## Getting Started
+
+1. **Build the project:**
+`./mvnw clean install`
+
+2. **Run the application:**
+`./mvnw spring-boot:run`
+
+
+3. **API Endpoints:**
+- `GET /api/students` - List all students
+- `GET /api/students/{id}` - Get student by ID
+- `POST /api/students` - Create a new student
+- `PUT /api/students/{id}` - Update student
+- `DELETE /api/students/{id}` - Delete student
